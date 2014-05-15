@@ -64,12 +64,27 @@ header ul li {
 	padding: 0 10px; 
 }
 
-.srh input[type="text"]{
-	border: 1px solid #dedede;
-}
+
 
 header .srh {
 	display: inline-block;
 	margin-top: 15px;
 	margin-left: 40px;
+	position: relative;
+}
+
+.srh input[type="text"]{
+	border: 1px solid #dedede;
+}
+
+.srh input[type="submit"]{
+	display: inline-block;
+	position: absolute;
+	right: 2px;
+	top: 6px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	width: 20px;
+	outline: none;
 }
