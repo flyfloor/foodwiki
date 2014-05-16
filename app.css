@@ -77,11 +77,19 @@ header .srh {
 	border: 1px solid #dedede;
 }
 
+.srh i {
+	color: #E6D7D7;
+	font-size: 14px;
+	position: absolute;
+	right: 3px;
+	top: 9px;
+}
+
 .srh input[type="submit"]{
 	display: inline-block;
 	position: absolute;
 	right: 2px;
-	top: 6px;
+	top: 0;
 	background: none;
 	border: none;
 	cursor: pointer;
