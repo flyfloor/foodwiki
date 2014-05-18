@@ -247,6 +247,7 @@ header .auth {
 	color: #cdd;
 	padding: 10px 0;
 	text-align: center;
+	left: 0;
 	bottom: 3px;
 	opacity: 0.8; 
 } 
