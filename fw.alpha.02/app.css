@@ -91,15 +91,10 @@ textarea {
 }
 
 header {
-	z-index: 999;
-	opacity: 0.96;
-	position: fixed;
-	top: 0;
 	width: 100%;
-	height: 50px;
+	height: 80px;
 	background: #f5f5f5;
 	border-bottom: 1px solid #eee;
-	box-shadow: 0 0 5px rgba(200,200,200,0.3);
 }
 
 header a:hover {
@@ -109,19 +104,19 @@ header a:hover {
 }
 
 header nav {
-	font-size: 16px;
+	font-size: 20px;
 	width: 1000px;
 	height: 100%;
 	margin: 0 auto;
-	font-weight: bold;
+	font-weight: lighter;
 }
 
 #site_icon {
-	width: 130px;
+	width: 150px;
 	height: 60px;
 	display: inline-block;
 	float: left;
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
 #site_icon img {
@@ -135,53 +130,19 @@ header ul {
 }
 
 header ul li {
-	padding: 0 10px; 
+	padding: 0 20px; 
 }
 
-
-
-header .srh {
-	display: inline-block;
-	float: left;
-	margin-top: 10px;
-	margin-left: 40px;
-	position: relative;
-}
 
 header .nav, header .auth {
 	display: inline-block;
-	padding-left: 50px;
+	padding-left: 100px;
 }
 
 header .auth {
 	float: right;
 	padding: 0 50px 0 0;
 	font-size: 14px;
-}
-
-.srh input[type="text"]{
-	border: 1px solid #eee;
-	box-shadow: 0 0 5px rgba(230,230,230,0.1) inset;
-}
-
-.srh i {
-	color: #E6D7D7;
-	font-size: 14px;
-	position: absolute;
-	right: 3px;
-	top: 9px;
-}
-
-.srh input[type="submit"]{
-	display: inline-block;
-	position: absolute;
-	right: 2px;
-	top: 0;
-	background: none;
-	border: none;
-	cursor: pointer;
-	width: 20px;
-	outline: none;
 }
 
 .recommend {
@@ -402,7 +363,7 @@ article .text {
 	letter-spacing: 1px;
 }
 
-.comments .bd {
+.food-comments .bd {
 	margin-left: 20px;
 }
 

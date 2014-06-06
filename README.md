@@ -4,10 +4,10 @@
 
 1. record the growth.
 
-	a place to remember how this grow up, changed, Just a glance.
+a place to remember how this grow up, changed, Just a glance.
 
 2. front end
 
-	just for view's structure, interactions and style 
+just for view's structure, interactions and style 
 
 
